@@ -1,43 +1,44 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+*.log
+*.int
+*.rsc
+*.dmb
+*.lk
+info.json
 
-# Folder config file
-Desktop.ini
+# WinMerge backups
+*.bak
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# String dumps
+*.str
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Compiled Python doohickies
+*.pyc
 
-# Windows shortcuts
-*.lnk
+#ignore any files in config/, except those in subdirectories.
+/config/*
+!/config/*/*
 
-# =========================
-# Operating System Files
-# =========================
+# OpenBYOND-generated crap
+/dmis
+/interface-indented
+/code-indented
+*.new.dmi
 
-# OSX
-# =========================
+.metadata
+/bot/config.yml
+/bot/data
+/analysis
+/code-fixed
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Player preferences
+players2.sqlite
 
-# Thumbnails
-._*
+# New CMC Minimap images.
+/data/minimaps/*
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# Backup maps created by maptools
+*.dmm.backup
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Changelog dry runs
+/html/changelog.dry.html
+/html/changelogs/.dry_changelog.yml
