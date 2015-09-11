@@ -6,7 +6,7 @@
 ######################################################################
 
 wjcowart - Host
-cairo283 - Game Master
+cairo283 - Host
 abi79 - Game Master
 arcalane - Game Admin
 asanadas - Game Admin
