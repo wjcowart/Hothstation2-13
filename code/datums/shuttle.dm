@@ -79,7 +79,7 @@
 	var/can_link_to_computer = LINK_FORBIDDEN
 
 	//Whether the shuttle gibs or displaces stuff. Change this to COLLISION_DISPLACE to make all shuttles displace stuff by default
-	var/collision_type = COLLISION_DESTROY
+	var/collision_type = COLLISION_DISPLACE
 
 	var/list/control_consoles = list()
 
