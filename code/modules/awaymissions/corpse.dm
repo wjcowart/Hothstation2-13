@@ -87,7 +87,6 @@
 
 
 
-
 /obj/effect/landmark/corpse/syndicatesoldier
 	name = "Syndicate Operative"
 	corpseuniform = /obj/item/clothing/under/syndicate
